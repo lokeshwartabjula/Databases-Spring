@@ -1,0 +1,18 @@
+package search;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+public class Results {
+
+	public static void main(String[] args) throws Exception {
+		// TODO Auto-generated method stub
+		System.setProperty("webdriver.gecko.driver", "C:\\selenium\\geckodriver.exe");
+		WebDriver myD=new FirefoxDriver();
+		myD.get("https://www.google.com/");
+		System.out.println("Starting Script");
+	
+	
+	}
+
+}

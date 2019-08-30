@@ -1,0 +1,27 @@
+package Flight;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+public class Book {
+
+	public static void main(String[] args) throws Exception {
+		// TODO Auto-generated method stub
+		System.setProperty("webdriver.gecko.driver", "C:\\selenium\\geckodriver.exe");
+		WebDriver myD=new FirefoxDriver();
+		myD.get("https://www.bing.com/");
+		System.out.println("Starting Script");
+		myD.findElement(By.xpath("//input[@name='q']")).sendKeys("book flights");
+		Thread.sleep(1500);
+		myD.findElement(By.xpath("//input[@name='q']")).submit();
+		myD.findElement(By.xpath("//input[@id='sb_form_go']")).click();
+		Thread.sleep(3000);
+//		String query=myD.findElement(By.xpath("//input[@name='q']")).getAttribute("value");
+//		System.out.println(query);
+//		String result=myD.findElement(By.xpath("//*[@id=\"resultStats\"]")).getText();
+//		System.out.println(result);
+		System.out.println("Stopping Script");
+	
+	}
+}

@@ -1,0 +1,16 @@
+package search;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+public class Predictions {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.setProperty("webdriver.gecko.driver", "C:\\selenium\\geckodriver.exe");
+		WebDriver myD=new FirefoxDriver();
+		myD.get("https://www.google.com/");
+
+	}
+
+}

@@ -1,0 +1,17 @@
+package forms;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+public class RadioButtons {
+
+	public static void main(String[] args) throws Exception {
+		// TODO Auto-generated method stub
+		System.setProperty("webdriver.gecko.driver", "C:\\selenium\\geckodriver.exe");
+		WebDriver myD=new FirefoxDriver();
+		myD.get("http://www.echoecho.com/htmlforms10.htm");
+		myD.findElement(By.xpath("//input[@value='Cheese']")).click();
+		System.out.println(myD.findElement(By.xpath("//input[@value='Cheese']")).isSelected());
+	}
+}

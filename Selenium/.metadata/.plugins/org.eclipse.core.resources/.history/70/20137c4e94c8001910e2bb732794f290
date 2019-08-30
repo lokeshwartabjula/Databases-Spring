@@ -1,0 +1,25 @@
+package Links;
+
+import java.util.List;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+public class Google {
+	public static void main(String[] args) throws Exception {
+		// TODO Auto-generated method stub
+		System.setProperty("webdriver.gecko.driver", "C:\\selenium\\geckodriver.exe");
+		WebDriver myD=new FirefoxDriver();
+		myD.get("https://www.google.com/");
+		List<WebElement>=myD.findElements(By.tagName("a"));
+		
+		String link=myD.findElement(By.tagName("a")).getAttribute("href");
+		System.out.print(link);
+		
+		
+		Thread.sleep(3000);
+		myD.close();
+	}
+}
