@@ -1,0 +1,15 @@
+package com.example.demo.config;
+
+import org.springframework.context.annotation.Bean;
+
+import com.mongodb.MongoClient;
+
+//import com.mongodb.client.MongoClient;
+
+public class AppConfig {
+
+	@Bean
+	public MongoClient client() {
+		return  new Mo
+	}
+}

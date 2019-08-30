@@ -1,0 +1,25 @@
+package com.example.demo.repos;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.mongodb.core.MongoTemplate;
+
+import com.example.demo.models.Car;
+
+public class RepositoryImplementation implements MyRepository<Car> {
+
+	@Autowired
+	private MongoTemplate template;
+	
+	@Override
+	public Car save(Car t) {
+		return template.save(t);
+	}
+
+	@Override
+	public List<Car> findAll() {
+		return template.findAll(Car.class);
+	}
+	
+}

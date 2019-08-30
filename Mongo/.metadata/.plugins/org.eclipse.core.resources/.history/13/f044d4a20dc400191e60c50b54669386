@@ -1,0 +1,47 @@
+package com.example.demo.config;
+
+import java.util.Arrays;
+
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+import org.springframework.data.mongodb.core.MongoTemplate;
+
+import com.example.demo.models.Address;
+import com.example.demo.models.Car;
+import com.example.demo.models.Owner;
+import com.mongodb.MongoClient;
+
+//import com.mongodb.client.MongoClient;
+
+@Configuration
+public class AppConfig {
+
+	@Bean
+	public MongoClient client() {
+		return  new MongoClient("localhost");
+	}
+	
+	@Bean
+	public MongoTemplate template() {
+		return new MongoTemplate(client(),"training");
+	}
+	@Bean
+	public Address address() {
+		return new Address(911,"George Bush Lane","New York",2001);
+	}
+	@Bean
+	public Owner owner() {
+		return new Owner(404,"Error",address());
+	}
+	@Bean
+	public Car car() {
+		Car car=new Car();
+		car.setBrand("Ford");
+		car.setModel(Arrays.asList("Focus","Figo","Mustang","Fiesta"));
+		car.setOwner(owner());
+//		byte[] bytes=
+//		car.setId(new ObjectId(bytes));
+		return car;
+	}
+
+}

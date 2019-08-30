@@ -1,0 +1,21 @@
+package com.example.demo.repos;
+
+import java.util.List;
+
+import com.example.demo.models.Car;
+
+public class RepositoryImplementation implements MyRepository<Car> {
+
+	
+	
+	@Override
+	public Car save(Car t) {
+		return null;
+	}
+
+	@Override
+	public List<Car> findAll() {
+		return null;
+	}
+	
+}

@@ -1,0 +1,12 @@
+package com.example.demo.repos;
+
+import com.example.demo.models.Car;
+
+public class RepositoryImplementation implements Repository<Car> {
+
+	@Override
+	public Car save(Car t) {
+		return null;
+	}
+	
+}

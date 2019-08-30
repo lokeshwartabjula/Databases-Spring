@@ -1,0 +1,1530 @@
+!SESSION 2019-08-21 16:46:32.645 -----------------------------------------------
+eclipse.buildId=4.3.1.201907120711-RELEASE
+java.version=1.8.0_211
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.egit.core 1 0 2019-08-21 16:47:07.398
+!MESSAGE Using Apache MINA sshd as ssh client.
+
+!ENTRY org.eclipse.jface 2 0 2019-08-21 16:47:09.521
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2019-08-21 16:47:09.521
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@460b77d6,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@6cb662e8,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2019-08-21 16:47:20.630
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\verizon'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2019-08-21 16:48:52.433
+!MESSAGE Could not download sources for org.springframework.boot:spring-boot-starter-data-mongodb:2.1.7.RELEASE
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact org.springframework.boot:spring-boot-starter-data-mongodb:jar:sources:2.1.7.RELEASE
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:801)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:112)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:769)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:746)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:328)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:302)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:267)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:231)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:159)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1374)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:159)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Missing org.springframework.boot:spring-boot-starter-data-mongodb:jar:sources:2.1.7.RELEASE
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2019-08-21 16:48:52.434
+!MESSAGE Could not resolve artifact org.springframework.boot:spring-boot-starter-data-mongodb:jar:sources:2.1.7.RELEASE
+!SUBENTRY 2 org.eclipse.m2e.core 4 -1 2019-08-21 16:48:52.434
+!MESSAGE Missing org.springframework.boot:spring-boot-starter-data-mongodb:jar:sources:2.1.7.RELEASE
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2019-08-21 16:49:00.263
+!MESSAGE Could not download javadoc for org.springframework.boot:spring-boot-starter-data-mongodb:2.1.7.RELEASE
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact org.springframework.boot:spring-boot-starter-data-mongodb:jar:javadoc:2.1.7.RELEASE
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:801)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:112)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:769)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:746)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:328)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:314)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:267)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:231)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:159)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1374)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:159)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Missing org.springframework.boot:spring-boot-starter-data-mongodb:jar:javadoc:2.1.7.RELEASE
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2019-08-21 16:49:00.263
+!MESSAGE Could not resolve artifact org.springframework.boot:spring-boot-starter-data-mongodb:jar:javadoc:2.1.7.RELEASE
+!SUBENTRY 2 org.eclipse.m2e.core 4 -1 2019-08-21 16:49:00.263
+!MESSAGE Missing org.springframework.boot:spring-boot-starter-data-mongodb:jar:javadoc:2.1.7.RELEASE
+
+!ENTRY org.eclipse.ui 2 2 2019-08-21 16:49:05.626
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-21 16:49:28.513
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-21 16:49:28.520
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@73c6ebec[org.springframework.tooling.boot.ls:1.9.0.201907120625(id=624)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-21 16:49:28.534
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-21 16:49:28.858
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-21 16:49:42.357
+!MESSAGE Boot LS startup time from start to initialized: 13806ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-21 16:49:42.424
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.dCZwEvfLisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-21 16:49:42.430
+!MESSAGE subscribing to classpath changes: sts4.classpath.dCZwEvfL isBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-21 16:49:42.438
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-21 16:49:42.447
+!MESSAGE subsribers = {sts4.classpath.dCZwEvfL=Send Classpath Notifications(108)}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-21 16:49:42.453
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-21 16:49:42.835
+!MESSAGE project MongoDB ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-21 16:49:42.842
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-21 16:49:42.849
+!MESSAGE Preparing classpath changed notification MongoDB
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-21 16:49:42.855
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.dCZwEvfL => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-21 16:49:42.861
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-21 16:49:42.881
+!MESSAGE classpath=98 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-21 16:49:42.890
+!MESSAGE buffering callback sts4.classpath.dCZwEvfL MongoDB false 98
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-21 16:49:42.899
+!MESSAGE executing callback sts4.classpath.dCZwEvfL 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-21 16:49:42.938
+!MESSAGE executing callback sts4.classpath.dCZwEvfL SUCCESS [done]
+
+!ENTRY org.eclipse.lsp4e 4 0 2019-08-21 16:51:49.605
+!MESSAGE 
+!STACK 0
+java.lang.InterruptedException
+	at java.util.concurrent.CompletableFuture.reportGet(Unknown Source)
+	at java.util.concurrent.CompletableFuture.get(Unknown Source)
+	at org.eclipse.lsp4e.operations.hover.LSBasedHover.getHoverInfo(LSBasedHover.java:108)
+	at org.springframework.tooling.boot.ls.jdt.SpringBootJavaHoverProvider.getHoverInfo2(SpringBootJavaHoverProvider.java:43)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:167)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:133)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:169)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-21 16:52:03.568
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.dCZwEvfL
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-21 16:52:03.573
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.dCZwEvfL
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-21 16:52:03.579
+!MESSAGE subsribers = null
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-21 16:52:03.584
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.dCZwEvfL => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-21 16:52:07.667
+!MESSAGE Boot LS startup time from start to initialized: 1490ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-21 16:52:07.684
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.SriTpVzRisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-21 16:52:07.690
+!MESSAGE subscribing to classpath changes: sts4.classpath.SriTpVzR isBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-21 16:52:07.695
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-21 16:52:07.699
+!MESSAGE subsribers = {sts4.classpath.SriTpVzR=Send Classpath Notifications(218)}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-21 16:52:07.704
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-21 16:52:08.110
+!MESSAGE project MongoDB ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-21 16:52:08.118
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-21 16:52:08.123
+!MESSAGE Preparing classpath changed notification MongoDB
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-21 16:52:08.128
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.SriTpVzR => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-21 16:52:08.135
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-21 16:52:08.149
+!MESSAGE classpath=98 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-21 16:52:08.157
+!MESSAGE buffering callback sts4.classpath.SriTpVzR MongoDB false 98
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-21 16:52:08.162
+!MESSAGE executing callback sts4.classpath.SriTpVzR 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-21 16:52:08.184
+!MESSAGE executing callback sts4.classpath.SriTpVzR SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-21 16:52:57.713
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.SriTpVzR
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-21 16:52:57.718
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.SriTpVzR
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-21 16:52:57.724
+!MESSAGE subsribers = null
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-21 16:52:57.729
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.SriTpVzR => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-21 16:54:03.980
+!MESSAGE Boot LS startup time from start to initialized: 1469ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-21 16:54:03.992
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.NHjzjGLEisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-21 16:54:03.997
+!MESSAGE subscribing to classpath changes: sts4.classpath.NHjzjGLE isBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-21 16:54:04.003
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-21 16:54:04.007
+!MESSAGE subsribers = {sts4.classpath.NHjzjGLE=Send Classpath Notifications(238)}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-21 16:54:04.012
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-21 16:54:04.016
+!MESSAGE project MongoDB ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-21 16:54:04.020
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-21 16:54:04.024
+!MESSAGE Preparing classpath changed notification MongoDB
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-21 16:54:04.028
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.NHjzjGLE => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-21 16:54:04.032
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-21 16:54:04.040
+!MESSAGE classpath=98 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-21 16:54:04.046
+!MESSAGE buffering callback sts4.classpath.NHjzjGLE MongoDB false 98
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-21 16:54:04.051
+!MESSAGE executing callback sts4.classpath.NHjzjGLE 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-21 16:54:04.069
+!MESSAGE executing callback sts4.classpath.NHjzjGLE SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-21 16:55:39.555
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.NHjzjGLE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-21 16:55:39.561
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.NHjzjGLE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-21 16:55:39.566
+!MESSAGE subsribers = null
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-21 16:55:39.573
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.NHjzjGLE => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-21 16:56:07.168
+!MESSAGE Boot LS startup time from start to initialized: 1482ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-21 16:56:07.179
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.WCpwZJhKisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-21 16:56:07.184
+!MESSAGE subscribing to classpath changes: sts4.classpath.WCpwZJhK isBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-21 16:56:07.189
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-21 16:56:07.193
+!MESSAGE subsribers = {sts4.classpath.WCpwZJhK=Send Classpath Notifications(288)}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-21 16:56:07.198
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-21 16:56:07.203
+!MESSAGE project MongoDB ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-21 16:56:07.207
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-21 16:56:07.210
+!MESSAGE Preparing classpath changed notification MongoDB
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-21 16:56:07.214
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.WCpwZJhK => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-21 16:56:07.218
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-21 16:56:07.226
+!MESSAGE classpath=98 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-21 16:56:07.232
+!MESSAGE buffering callback sts4.classpath.WCpwZJhK MongoDB false 98
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-21 16:56:07.236
+!MESSAGE executing callback sts4.classpath.WCpwZJhK 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-21 16:56:07.253
+!MESSAGE executing callback sts4.classpath.WCpwZJhK SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-21 16:56:20.555
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.WCpwZJhK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-21 16:56:20.561
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.WCpwZJhK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-21 16:56:20.565
+!MESSAGE subsribers = null
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-21 16:56:20.570
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.WCpwZJhK => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-21 16:56:48.088
+!MESSAGE Boot LS startup time from start to initialized: 1490ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-21 16:56:48.100
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.AszbVgPaisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-21 16:56:48.106
+!MESSAGE subscribing to classpath changes: sts4.classpath.AszbVgPa isBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-21 16:56:48.111
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-21 16:56:48.115
+!MESSAGE subsribers = {sts4.classpath.AszbVgPa=Send Classpath Notifications(323)}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-21 16:56:48.120
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-21 16:56:48.124
+!MESSAGE project MongoDB ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-21 16:56:48.128
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-21 16:56:48.132
+!MESSAGE Preparing classpath changed notification MongoDB
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-21 16:56:48.136
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.AszbVgPa => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-21 16:56:48.140
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-21 16:56:48.156
+!MESSAGE classpath=98 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-21 16:56:48.162
+!MESSAGE buffering callback sts4.classpath.AszbVgPa MongoDB false 98
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-21 16:56:48.166
+!MESSAGE executing callback sts4.classpath.AszbVgPa 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-21 16:56:48.184
+!MESSAGE executing callback sts4.classpath.AszbVgPa SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-22 09:52:34.147
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.AszbVgPa
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-22 09:52:34.153
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.AszbVgPa
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-22 09:52:34.157
+!MESSAGE subsribers = null
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-22 09:52:34.161
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.AszbVgPa => OK
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2019-08-22 12:19:59.051
+!MESSAGE Could not download sources for org.springframework.boot:spring-boot-starter-data-cassandra:2.1.7.RELEASE
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact org.springframework.boot:spring-boot-starter-data-cassandra:jar:sources:2.1.7.RELEASE
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:801)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:112)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:769)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:746)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:328)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:302)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:267)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:231)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:159)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1374)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:159)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Missing org.springframework.boot:spring-boot-starter-data-cassandra:jar:sources:2.1.7.RELEASE
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2019-08-22 12:19:59.051
+!MESSAGE Could not resolve artifact org.springframework.boot:spring-boot-starter-data-cassandra:jar:sources:2.1.7.RELEASE
+!SUBENTRY 2 org.eclipse.m2e.core 4 -1 2019-08-22 12:19:59.051
+!MESSAGE Missing org.springframework.boot:spring-boot-starter-data-cassandra:jar:sources:2.1.7.RELEASE
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2019-08-22 12:20:32.231
+!MESSAGE Could not download javadoc for org.springframework.boot:spring-boot-starter-data-cassandra:2.1.7.RELEASE
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact org.springframework.boot:spring-boot-starter-data-cassandra:jar:javadoc:2.1.7.RELEASE
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:801)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:112)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:769)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:746)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:328)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:314)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:267)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:231)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:159)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1374)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:159)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Missing org.springframework.boot:spring-boot-starter-data-cassandra:jar:javadoc:2.1.7.RELEASE
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2019-08-22 12:20:32.231
+!MESSAGE Could not resolve artifact org.springframework.boot:spring-boot-starter-data-cassandra:jar:javadoc:2.1.7.RELEASE
+!SUBENTRY 2 org.eclipse.m2e.core 4 -1 2019-08-22 12:20:32.231
+!MESSAGE Missing org.springframework.boot:spring-boot-starter-data-cassandra:jar:javadoc:2.1.7.RELEASE
+
+!ENTRY org.eclipse.lsp4e 4 0 2019-08-22 12:22:40.514
+!MESSAGE 
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.util.concurrent.CompletableFuture.timedGet(Unknown Source)
+	at java.util.concurrent.CompletableFuture.get(Unknown Source)
+	at org.eclipse.lsp4e.LanguageServerWrapper.supportsWorkspaceFolderCapability(LanguageServerWrapper.java:461)
+	at org.eclipse.lsp4e.LanguageServerWrapper.canOperate(LanguageServerWrapper.java:450)
+	at org.eclipse.lsp4e.LanguageServerWrapper.canOperate(LanguageServerWrapper.java:757)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.lambda$6(LanguageServiceAccessor.java:320)
+	at java.util.stream.ReferencePipeline$2$1.accept(Unknown Source)
+	at java.util.stream.ReferencePipeline$2$1.accept(Unknown Source)
+	at java.util.HashMap$KeySpliterator.forEachRemaining(Unknown Source)
+	at java.util.stream.AbstractPipeline.copyInto(Unknown Source)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)
+	at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(Unknown Source)
+	at java.util.stream.AbstractPipeline.evaluate(Unknown Source)
+	at java.util.stream.ReferencePipeline.collect(Unknown Source)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.getLSWrappers(LanguageServiceAccessor.java:321)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.getLanguageServers(LanguageServiceAccessor.java:505)
+	at org.eclipse.lsp4e.operations.completion.LSContentAssistProcessor.initiateLanguageServers(LSContentAssistProcessor.java:143)
+	at org.eclipse.lsp4e.operations.completion.LSContentAssistProcessor.computeCompletionProposals(LSContentAssistProcessor.java:80)
+	at org.springframework.tooling.boot.ls.jdt.SpringBootJavaCompletionProposalComputer.lambda$0(SpringBootJavaCompletionProposalComputer.java:51)
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(Unknown Source)
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(Unknown Source)
+	at java.util.concurrent.ForkJoinTask.doExec(Unknown Source)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(Unknown Source)
+	at java.util.concurrent.ForkJoinPool.runWorker(Unknown Source)
+	at java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source)
+
+!ENTRY org.eclipse.lsp4e 4 0 2019-08-22 12:22:41.522
+!MESSAGE 
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.util.concurrent.CompletableFuture.timedGet(Unknown Source)
+	at java.util.concurrent.CompletableFuture.get(Unknown Source)
+	at org.eclipse.lsp4e.LanguageServerWrapper.supportsWorkspaceFolderCapability(LanguageServerWrapper.java:461)
+	at org.eclipse.lsp4e.LanguageServerWrapper.canOperate(LanguageServerWrapper.java:450)
+	at org.eclipse.lsp4e.LanguageServerWrapper.canOperate(LanguageServerWrapper.java:757)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.lambda$7(LanguageServiceAccessor.java:338)
+	at java.util.stream.MatchOps$1MatchSink.accept(Unknown Source)
+	at java.util.HashMap$KeySpliterator.tryAdvance(Unknown Source)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(Unknown Source)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(Unknown Source)
+	at java.util.stream.AbstractPipeline.copyInto(Unknown Source)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)
+	at java.util.stream.MatchOps$MatchOp.evaluateSequential(Unknown Source)
+	at java.util.stream.MatchOps$MatchOp.evaluateSequential(Unknown Source)
+	at java.util.stream.AbstractPipeline.evaluate(Unknown Source)
+	at java.util.stream.ReferencePipeline.anyMatch(Unknown Source)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.getLSWrappers(LanguageServiceAccessor.java:337)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.getLanguageServers(LanguageServiceAccessor.java:505)
+	at org.eclipse.lsp4e.operations.completion.LSContentAssistProcessor.initiateLanguageServers(LSContentAssistProcessor.java:143)
+	at org.eclipse.lsp4e.operations.completion.LSContentAssistProcessor.computeCompletionProposals(LSContentAssistProcessor.java:80)
+	at org.springframework.tooling.boot.ls.jdt.SpringBootJavaCompletionProposalComputer.lambda$0(SpringBootJavaCompletionProposalComputer.java:51)
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(Unknown Source)
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(Unknown Source)
+	at java.util.concurrent.ForkJoinTask.doExec(Unknown Source)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(Unknown Source)
+	at java.util.concurrent.ForkJoinPool.runWorker(Unknown Source)
+	at java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source)
+
+!ENTRY org.eclipse.lsp4e 4 0 2019-08-22 12:22:42.531
+!MESSAGE 
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.util.concurrent.CompletableFuture.timedGet(Unknown Source)
+	at java.util.concurrent.CompletableFuture.get(Unknown Source)
+	at org.eclipse.lsp4e.LanguageServerWrapper.supportsWorkspaceFolderCapability(LanguageServerWrapper.java:461)
+	at org.eclipse.lsp4e.LanguageServerWrapper.canOperate(LanguageServerWrapper.java:450)
+	at org.eclipse.lsp4e.LanguageServerWrapper.canOperate(LanguageServerWrapper.java:757)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.lambda$6(LanguageServiceAccessor.java:320)
+	at java.util.stream.ReferencePipeline$2$1.accept(Unknown Source)
+	at java.util.stream.ReferencePipeline$2$1.accept(Unknown Source)
+	at java.util.HashMap$KeySpliterator.forEachRemaining(Unknown Source)
+	at java.util.stream.AbstractPipeline.copyInto(Unknown Source)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)
+	at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(Unknown Source)
+	at java.util.stream.AbstractPipeline.evaluate(Unknown Source)
+	at java.util.stream.ReferencePipeline.collect(Unknown Source)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.getLSWrappers(LanguageServiceAccessor.java:321)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.getLanguageServers(LanguageServiceAccessor.java:505)
+	at org.eclipse.lsp4e.operations.completion.LSContentAssistProcessor.initiateLanguageServers(LSContentAssistProcessor.java:155)
+	at org.eclipse.lsp4e.operations.completion.LSContentAssistProcessor.computeCompletionProposals(LSContentAssistProcessor.java:80)
+	at org.springframework.tooling.boot.ls.jdt.SpringBootJavaCompletionProposalComputer.lambda$0(SpringBootJavaCompletionProposalComputer.java:51)
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(Unknown Source)
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(Unknown Source)
+	at java.util.concurrent.ForkJoinTask.doExec(Unknown Source)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(Unknown Source)
+	at java.util.concurrent.ForkJoinPool.runWorker(Unknown Source)
+	at java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source)
+
+!ENTRY org.eclipse.lsp4e 4 0 2019-08-22 12:22:43.538
+!MESSAGE 
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.util.concurrent.CompletableFuture.timedGet(Unknown Source)
+	at java.util.concurrent.CompletableFuture.get(Unknown Source)
+	at org.eclipse.lsp4e.LanguageServerWrapper.supportsWorkspaceFolderCapability(LanguageServerWrapper.java:461)
+	at org.eclipse.lsp4e.LanguageServerWrapper.canOperate(LanguageServerWrapper.java:450)
+	at org.eclipse.lsp4e.LanguageServerWrapper.canOperate(LanguageServerWrapper.java:757)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.lambda$7(LanguageServiceAccessor.java:338)
+	at java.util.stream.MatchOps$1MatchSink.accept(Unknown Source)
+	at java.util.HashMap$KeySpliterator.tryAdvance(Unknown Source)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(Unknown Source)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(Unknown Source)
+	at java.util.stream.AbstractPipeline.copyInto(Unknown Source)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)
+	at java.util.stream.MatchOps$MatchOp.evaluateSequential(Unknown Source)
+	at java.util.stream.MatchOps$MatchOp.evaluateSequential(Unknown Source)
+	at java.util.stream.AbstractPipeline.evaluate(Unknown Source)
+	at java.util.stream.ReferencePipeline.anyMatch(Unknown Source)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.getLSWrappers(LanguageServiceAccessor.java:337)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.getLanguageServers(LanguageServiceAccessor.java:505)
+	at org.eclipse.lsp4e.operations.completion.LSContentAssistProcessor.initiateLanguageServers(LSContentAssistProcessor.java:155)
+	at org.eclipse.lsp4e.operations.completion.LSContentAssistProcessor.computeCompletionProposals(LSContentAssistProcessor.java:80)
+	at org.springframework.tooling.boot.ls.jdt.SpringBootJavaCompletionProposalComputer.lambda$0(SpringBootJavaCompletionProposalComputer.java:51)
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(Unknown Source)
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(Unknown Source)
+	at java.util.concurrent.ForkJoinTask.doExec(Unknown Source)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(Unknown Source)
+	at java.util.concurrent.ForkJoinPool.runWorker(Unknown Source)
+	at java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-22 12:22:47.285
+!MESSAGE Boot LS startup time from start to initialized: 12417ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-22 12:22:47.347
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.mnKPzIiNisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-22 12:22:47.352
+!MESSAGE subscribing to classpath changes: sts4.classpath.mnKPzIiN isBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-22 12:22:47.357
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-22 12:22:47.362
+!MESSAGE subsribers = {sts4.classpath.mnKPzIiN=Send Classpath Notifications(2898)}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-22 12:22:47.366
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-22 12:22:47.370
+!MESSAGE project Cassandra ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-22 12:22:47.375
+!MESSAGE project MongoDB ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-22 12:22:47.379
+!MESSAGE Preparing classpath changed notification Cassandra
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-22 12:22:47.384
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-22 12:22:47.388
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-22 12:22:47.391
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.mnKPzIiN => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-22 12:22:47.396
+!MESSAGE classpath=114 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-22 12:22:47.402
+!MESSAGE buffering callback sts4.classpath.mnKPzIiN Cassandra false 114
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-22 12:22:47.407
+!MESSAGE Preparing classpath changed notification MongoDB
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-22 12:22:47.411
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-22 12:22:47.420
+!MESSAGE classpath=98 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-22 12:22:47.426
+!MESSAGE buffering callback sts4.classpath.mnKPzIiN MongoDB false 98
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-22 12:22:47.431
+!MESSAGE executing callback sts4.classpath.mnKPzIiN 2 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-22 12:22:47.457
+!MESSAGE executing callback sts4.classpath.mnKPzIiN SUCCESS [done]
+
+!ENTRY org.eclipse.lsp4e 4 0 2019-08-22 12:43:32.857
+!MESSAGE 
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.util.concurrent.CompletableFuture.timedGet(Unknown Source)
+	at java.util.concurrent.CompletableFuture.get(Unknown Source)
+	at org.eclipse.lsp4e.operations.completion.LSIncompleteCompletionProposal.getAdditionalProposalInfo(LSIncompleteCompletionProposal.java:306)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$Timer$2$1.run(AdditionalInfoController.java:116)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-22 14:30:17.491
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.mnKPzIiN
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-22 14:30:17.506
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.mnKPzIiN
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-22 14:30:17.512
+!MESSAGE subsribers = null
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-22 14:30:17.517
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.mnKPzIiN => OK
+
+!ENTRY org.eclipse.lsp4e 4 0 2019-08-22 15:13:26.921
+!MESSAGE 
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.util.concurrent.CompletableFuture.timedGet(Unknown Source)
+	at java.util.concurrent.CompletableFuture.get(Unknown Source)
+	at org.eclipse.lsp4e.LanguageServerWrapper.supportsWorkspaceFolderCapability(LanguageServerWrapper.java:461)
+	at org.eclipse.lsp4e.LanguageServerWrapper.canOperate(LanguageServerWrapper.java:450)
+	at org.eclipse.lsp4e.LanguageServerWrapper.canOperate(LanguageServerWrapper.java:757)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.lambda$6(LanguageServiceAccessor.java:320)
+	at java.util.stream.ReferencePipeline$2$1.accept(Unknown Source)
+	at java.util.stream.ReferencePipeline$2$1.accept(Unknown Source)
+	at java.util.HashMap$KeySpliterator.forEachRemaining(Unknown Source)
+	at java.util.stream.AbstractPipeline.copyInto(Unknown Source)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)
+	at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(Unknown Source)
+	at java.util.stream.AbstractPipeline.evaluate(Unknown Source)
+	at java.util.stream.ReferencePipeline.collect(Unknown Source)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.getLSWrappers(LanguageServiceAccessor.java:321)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.getLanguageServers(LanguageServiceAccessor.java:505)
+	at org.eclipse.lsp4e.operations.completion.LSContentAssistProcessor.initiateLanguageServers(LSContentAssistProcessor.java:143)
+	at org.eclipse.lsp4e.operations.completion.LSContentAssistProcessor.computeCompletionProposals(LSContentAssistProcessor.java:80)
+	at org.springframework.tooling.boot.ls.jdt.SpringBootJavaCompletionProposalComputer.lambda$0(SpringBootJavaCompletionProposalComputer.java:51)
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(Unknown Source)
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(Unknown Source)
+	at java.util.concurrent.ForkJoinTask.doExec(Unknown Source)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(Unknown Source)
+	at java.util.concurrent.ForkJoinPool.runWorker(Unknown Source)
+	at java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source)
+
+!ENTRY org.eclipse.lsp4e 4 0 2019-08-22 15:13:27.926
+!MESSAGE 
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.util.concurrent.CompletableFuture.timedGet(Unknown Source)
+	at java.util.concurrent.CompletableFuture.get(Unknown Source)
+	at org.eclipse.lsp4e.LanguageServerWrapper.supportsWorkspaceFolderCapability(LanguageServerWrapper.java:461)
+	at org.eclipse.lsp4e.LanguageServerWrapper.canOperate(LanguageServerWrapper.java:450)
+	at org.eclipse.lsp4e.LanguageServerWrapper.canOperate(LanguageServerWrapper.java:757)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.lambda$7(LanguageServiceAccessor.java:338)
+	at java.util.stream.MatchOps$1MatchSink.accept(Unknown Source)
+	at java.util.HashMap$KeySpliterator.tryAdvance(Unknown Source)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(Unknown Source)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(Unknown Source)
+	at java.util.stream.AbstractPipeline.copyInto(Unknown Source)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)
+	at java.util.stream.MatchOps$MatchOp.evaluateSequential(Unknown Source)
+	at java.util.stream.MatchOps$MatchOp.evaluateSequential(Unknown Source)
+	at java.util.stream.AbstractPipeline.evaluate(Unknown Source)
+	at java.util.stream.ReferencePipeline.anyMatch(Unknown Source)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.getLSWrappers(LanguageServiceAccessor.java:337)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.getLanguageServers(LanguageServiceAccessor.java:505)
+	at org.eclipse.lsp4e.operations.completion.LSContentAssistProcessor.initiateLanguageServers(LSContentAssistProcessor.java:143)
+	at org.eclipse.lsp4e.operations.completion.LSContentAssistProcessor.computeCompletionProposals(LSContentAssistProcessor.java:80)
+	at org.springframework.tooling.boot.ls.jdt.SpringBootJavaCompletionProposalComputer.lambda$0(SpringBootJavaCompletionProposalComputer.java:51)
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(Unknown Source)
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(Unknown Source)
+	at java.util.concurrent.ForkJoinTask.doExec(Unknown Source)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(Unknown Source)
+	at java.util.concurrent.ForkJoinPool.runWorker(Unknown Source)
+	at java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source)
+
+!ENTRY org.eclipse.lsp4e 4 0 2019-08-22 15:13:28.934
+!MESSAGE 
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.util.concurrent.CompletableFuture.timedGet(Unknown Source)
+	at java.util.concurrent.CompletableFuture.get(Unknown Source)
+	at org.eclipse.lsp4e.LanguageServerWrapper.supportsWorkspaceFolderCapability(LanguageServerWrapper.java:461)
+	at org.eclipse.lsp4e.LanguageServerWrapper.canOperate(LanguageServerWrapper.java:450)
+	at org.eclipse.lsp4e.LanguageServerWrapper.canOperate(LanguageServerWrapper.java:757)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.lambda$6(LanguageServiceAccessor.java:320)
+	at java.util.stream.ReferencePipeline$2$1.accept(Unknown Source)
+	at java.util.stream.ReferencePipeline$2$1.accept(Unknown Source)
+	at java.util.HashMap$KeySpliterator.forEachRemaining(Unknown Source)
+	at java.util.stream.AbstractPipeline.copyInto(Unknown Source)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)
+	at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(Unknown Source)
+	at java.util.stream.AbstractPipeline.evaluate(Unknown Source)
+	at java.util.stream.ReferencePipeline.collect(Unknown Source)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.getLSWrappers(LanguageServiceAccessor.java:321)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.getLanguageServers(LanguageServiceAccessor.java:505)
+	at org.eclipse.lsp4e.operations.completion.LSContentAssistProcessor.initiateLanguageServers(LSContentAssistProcessor.java:155)
+	at org.eclipse.lsp4e.operations.completion.LSContentAssistProcessor.computeCompletionProposals(LSContentAssistProcessor.java:80)
+	at org.springframework.tooling.boot.ls.jdt.SpringBootJavaCompletionProposalComputer.lambda$0(SpringBootJavaCompletionProposalComputer.java:51)
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(Unknown Source)
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(Unknown Source)
+	at java.util.concurrent.ForkJoinTask.doExec(Unknown Source)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(Unknown Source)
+	at java.util.concurrent.ForkJoinPool.runWorker(Unknown Source)
+	at java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source)
+
+!ENTRY org.eclipse.lsp4e 4 0 2019-08-22 15:13:29.939
+!MESSAGE 
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.util.concurrent.CompletableFuture.timedGet(Unknown Source)
+	at java.util.concurrent.CompletableFuture.get(Unknown Source)
+	at org.eclipse.lsp4e.LanguageServerWrapper.supportsWorkspaceFolderCapability(LanguageServerWrapper.java:461)
+	at org.eclipse.lsp4e.LanguageServerWrapper.canOperate(LanguageServerWrapper.java:450)
+	at org.eclipse.lsp4e.LanguageServerWrapper.canOperate(LanguageServerWrapper.java:757)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.lambda$7(LanguageServiceAccessor.java:338)
+	at java.util.stream.MatchOps$1MatchSink.accept(Unknown Source)
+	at java.util.HashMap$KeySpliterator.tryAdvance(Unknown Source)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(Unknown Source)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(Unknown Source)
+	at java.util.stream.AbstractPipeline.copyInto(Unknown Source)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)
+	at java.util.stream.MatchOps$MatchOp.evaluateSequential(Unknown Source)
+	at java.util.stream.MatchOps$MatchOp.evaluateSequential(Unknown Source)
+	at java.util.stream.AbstractPipeline.evaluate(Unknown Source)
+	at java.util.stream.ReferencePipeline.anyMatch(Unknown Source)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.getLSWrappers(LanguageServiceAccessor.java:337)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.getLanguageServers(LanguageServiceAccessor.java:505)
+	at org.eclipse.lsp4e.operations.completion.LSContentAssistProcessor.initiateLanguageServers(LSContentAssistProcessor.java:155)
+	at org.eclipse.lsp4e.operations.completion.LSContentAssistProcessor.computeCompletionProposals(LSContentAssistProcessor.java:80)
+	at org.springframework.tooling.boot.ls.jdt.SpringBootJavaCompletionProposalComputer.lambda$0(SpringBootJavaCompletionProposalComputer.java:51)
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(Unknown Source)
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(Unknown Source)
+	at java.util.concurrent.ForkJoinTask.doExec(Unknown Source)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(Unknown Source)
+	at java.util.concurrent.ForkJoinPool.runWorker(Unknown Source)
+	at java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-22 15:13:33.104
+!MESSAGE Boot LS startup time from start to initialized: 11772ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-22 15:13:33.143
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.BRCjaofWisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-22 15:13:33.148
+!MESSAGE subscribing to classpath changes: sts4.classpath.BRCjaofW isBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-22 15:13:33.152
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-22 15:13:33.157
+!MESSAGE subsribers = {sts4.classpath.BRCjaofW=Send Classpath Notifications(3883)}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-22 15:13:33.162
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-22 15:13:33.363
+!MESSAGE project UnitTesting ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-22 15:13:33.368
+!MESSAGE project Cassandra ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-22 15:13:33.373
+!MESSAGE Preparing classpath changed notification UnitTesting
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-22 15:13:33.376
+!MESSAGE project MongoDB ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-22 15:13:33.380
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-22 15:13:33.385
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-22 15:13:33.390
+!MESSAGE classpath=93 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-22 15:13:33.394
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.BRCjaofW => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-22 15:13:33.398
+!MESSAGE buffering callback sts4.classpath.BRCjaofW UnitTesting false 93
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-22 15:13:33.402
+!MESSAGE Preparing classpath changed notification Cassandra
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-22 15:13:33.406
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-22 15:13:33.413
+!MESSAGE classpath=114 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-22 15:13:33.419
+!MESSAGE buffering callback sts4.classpath.BRCjaofW Cassandra false 114
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-22 15:13:33.423
+!MESSAGE Preparing classpath changed notification MongoDB
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-22 15:13:33.426
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-22 15:13:33.432
+!MESSAGE classpath=98 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-22 15:13:33.438
+!MESSAGE buffering callback sts4.classpath.BRCjaofW MongoDB false 98
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-22 15:13:33.442
+!MESSAGE executing callback sts4.classpath.BRCjaofW 3 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-22 15:13:33.474
+!MESSAGE executing callback sts4.classpath.BRCjaofW SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-22 15:14:40.451
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.BRCjaofW
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-22 15:14:40.456
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.BRCjaofW
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-22 15:14:40.461
+!MESSAGE subsribers = null
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-22 15:14:40.469
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.BRCjaofW => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-22 15:15:35.448
+!MESSAGE Boot LS startup time from start to initialized: 1369ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-22 15:15:35.459
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.BkDbRwvLisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-22 15:15:35.464
+!MESSAGE subscribing to classpath changes: sts4.classpath.BkDbRwvL isBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-22 15:15:35.469
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-22 15:15:35.474
+!MESSAGE subsribers = {sts4.classpath.BkDbRwvL=Send Classpath Notifications(3946)}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-22 15:15:35.478
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-22 15:15:35.483
+!MESSAGE project UnitTesting ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-22 15:15:35.487
+!MESSAGE Preparing classpath changed notification UnitTesting
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-22 15:15:35.491
+!MESSAGE project Cassandra ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-22 15:15:35.495
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-22 15:15:35.500
+!MESSAGE project MongoDB ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-22 15:15:35.504
+!MESSAGE classpath=93 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-22 15:15:35.508
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-22 15:15:35.512
+!MESSAGE buffering callback sts4.classpath.BkDbRwvL UnitTesting false 93
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-22 15:15:35.515
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.BkDbRwvL => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-22 15:15:35.519
+!MESSAGE Preparing classpath changed notification Cassandra
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-22 15:15:35.524
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-22 15:15:35.530
+!MESSAGE classpath=114 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-22 15:15:35.536
+!MESSAGE buffering callback sts4.classpath.BkDbRwvL Cassandra false 114
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-22 15:15:35.539
+!MESSAGE Preparing classpath changed notification MongoDB
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-22 15:15:35.543
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-22 15:15:35.549
+!MESSAGE classpath=98 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-22 15:15:35.554
+!MESSAGE buffering callback sts4.classpath.BkDbRwvL MongoDB false 98
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-22 15:15:35.558
+!MESSAGE executing callback sts4.classpath.BkDbRwvL 3 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-22 15:15:35.583
+!MESSAGE executing callback sts4.classpath.BkDbRwvL SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-23 10:06:56.939
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.BkDbRwvL
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-23 10:06:56.954
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.BkDbRwvL
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-23 10:06:56.958
+!MESSAGE subsribers = null
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-23 10:06:56.963
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.BkDbRwvL => OK
+
+!ENTRY org.eclipse.lsp4e 4 0 2019-08-23 12:24:12.264
+!MESSAGE 
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.util.concurrent.CompletableFuture.timedGet(Unknown Source)
+	at java.util.concurrent.CompletableFuture.get(Unknown Source)
+	at org.eclipse.lsp4e.LanguageServerWrapper.supportsWorkspaceFolderCapability(LanguageServerWrapper.java:461)
+	at org.eclipse.lsp4e.LanguageServerWrapper.canOperate(LanguageServerWrapper.java:450)
+	at org.eclipse.lsp4e.LanguageServerWrapper.canOperate(LanguageServerWrapper.java:757)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.lambda$6(LanguageServiceAccessor.java:320)
+	at java.util.stream.ReferencePipeline$2$1.accept(Unknown Source)
+	at java.util.stream.ReferencePipeline$2$1.accept(Unknown Source)
+	at java.util.HashMap$KeySpliterator.forEachRemaining(Unknown Source)
+	at java.util.stream.AbstractPipeline.copyInto(Unknown Source)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)
+	at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(Unknown Source)
+	at java.util.stream.AbstractPipeline.evaluate(Unknown Source)
+	at java.util.stream.ReferencePipeline.collect(Unknown Source)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.getLSWrappers(LanguageServiceAccessor.java:321)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.getLanguageServers(LanguageServiceAccessor.java:505)
+	at org.eclipse.lsp4e.ConnectDocumentToLanguageServerSetupParticipant$1.run(ConnectDocumentToLanguageServerSetupParticipant.java:50)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.lsp4e 4 0 2019-08-23 12:24:13.280
+!MESSAGE 
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.util.concurrent.CompletableFuture.timedGet(Unknown Source)
+	at java.util.concurrent.CompletableFuture.get(Unknown Source)
+	at org.eclipse.lsp4e.LanguageServerWrapper.supportsWorkspaceFolderCapability(LanguageServerWrapper.java:461)
+	at org.eclipse.lsp4e.LanguageServerWrapper.canOperate(LanguageServerWrapper.java:450)
+	at org.eclipse.lsp4e.LanguageServerWrapper.canOperate(LanguageServerWrapper.java:757)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.lambda$7(LanguageServiceAccessor.java:338)
+	at java.util.stream.MatchOps$1MatchSink.accept(Unknown Source)
+	at java.util.HashMap$KeySpliterator.tryAdvance(Unknown Source)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(Unknown Source)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(Unknown Source)
+	at java.util.stream.AbstractPipeline.copyInto(Unknown Source)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)
+	at java.util.stream.MatchOps$MatchOp.evaluateSequential(Unknown Source)
+	at java.util.stream.MatchOps$MatchOp.evaluateSequential(Unknown Source)
+	at java.util.stream.AbstractPipeline.evaluate(Unknown Source)
+	at java.util.stream.ReferencePipeline.anyMatch(Unknown Source)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.getLSWrappers(LanguageServiceAccessor.java:337)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.getLanguageServers(LanguageServiceAccessor.java:505)
+	at org.eclipse.lsp4e.ConnectDocumentToLanguageServerSetupParticipant$1.run(ConnectDocumentToLanguageServerSetupParticipant.java:50)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.lsp4e 4 0 2019-08-23 12:24:14.286
+!MESSAGE 
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.util.concurrent.CompletableFuture.timedGet(Unknown Source)
+	at java.util.concurrent.CompletableFuture.get(Unknown Source)
+	at org.eclipse.lsp4e.LanguageServerWrapper.supportsWorkspaceFolderCapability(LanguageServerWrapper.java:461)
+	at org.eclipse.lsp4e.LanguageServerWrapper.canOperate(LanguageServerWrapper.java:450)
+	at org.eclipse.lsp4e.LanguageServerWrapper.canOperate(LanguageServerWrapper.java:757)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.lambda$6(LanguageServiceAccessor.java:320)
+	at java.util.stream.ReferencePipeline$2$1.accept(Unknown Source)
+	at java.util.stream.ReferencePipeline$2$1.accept(Unknown Source)
+	at java.util.HashMap$KeySpliterator.forEachRemaining(Unknown Source)
+	at java.util.stream.AbstractPipeline.copyInto(Unknown Source)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)
+	at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(Unknown Source)
+	at java.util.stream.AbstractPipeline.evaluate(Unknown Source)
+	at java.util.stream.ReferencePipeline.collect(Unknown Source)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.getLSWrappers(LanguageServiceAccessor.java:321)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.getLanguageServers(LanguageServiceAccessor.java:505)
+	at org.eclipse.lsp4e.ConnectDocumentToLanguageServerSetupParticipant$1.run(ConnectDocumentToLanguageServerSetupParticipant.java:50)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.lsp4e 4 0 2019-08-23 12:24:15.292
+!MESSAGE 
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.util.concurrent.CompletableFuture.timedGet(Unknown Source)
+	at java.util.concurrent.CompletableFuture.get(Unknown Source)
+	at org.eclipse.lsp4e.LanguageServerWrapper.supportsWorkspaceFolderCapability(LanguageServerWrapper.java:461)
+	at org.eclipse.lsp4e.LanguageServerWrapper.canOperate(LanguageServerWrapper.java:450)
+	at org.eclipse.lsp4e.LanguageServerWrapper.canOperate(LanguageServerWrapper.java:757)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.lambda$7(LanguageServiceAccessor.java:338)
+	at java.util.stream.MatchOps$1MatchSink.accept(Unknown Source)
+	at java.util.HashMap$KeySpliterator.tryAdvance(Unknown Source)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(Unknown Source)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(Unknown Source)
+	at java.util.stream.AbstractPipeline.copyInto(Unknown Source)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)
+	at java.util.stream.MatchOps$MatchOp.evaluateSequential(Unknown Source)
+	at java.util.stream.MatchOps$MatchOp.evaluateSequential(Unknown Source)
+	at java.util.stream.AbstractPipeline.evaluate(Unknown Source)
+	at java.util.stream.ReferencePipeline.anyMatch(Unknown Source)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.getLSWrappers(LanguageServiceAccessor.java:337)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.getLanguageServers(LanguageServiceAccessor.java:505)
+	at org.eclipse.lsp4e.ConnectDocumentToLanguageServerSetupParticipant$1.run(ConnectDocumentToLanguageServerSetupParticipant.java:50)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-23 12:24:15.955
+!MESSAGE Boot LS startup time from start to initialized: 12526ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-23 12:24:15.983
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.YUKqDpMFisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-23 12:24:15.988
+!MESSAGE subscribing to classpath changes: sts4.classpath.YUKqDpMF isBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-23 12:24:15.993
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-23 12:24:15.997
+!MESSAGE subsribers = {sts4.classpath.YUKqDpMF=Send Classpath Notifications(5727)}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-23 12:24:16.001
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-23 12:24:16.006
+!MESSAGE project UnitTesting ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-23 12:24:16.010
+!MESSAGE Preparing classpath changed notification UnitTesting
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-23 12:24:16.015
+!MESSAGE project Cassandra ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-23 12:24:16.019
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-23 12:24:16.023
+!MESSAGE project MongoDB ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-23 12:24:16.028
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-23 12:24:16.032
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.YUKqDpMF => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-23 12:24:16.037
+!MESSAGE classpath=93 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-23 12:24:16.043
+!MESSAGE buffering callback sts4.classpath.YUKqDpMF UnitTesting false 93
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-23 12:24:16.047
+!MESSAGE Preparing classpath changed notification Cassandra
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-23 12:24:16.051
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-23 12:24:16.064
+!MESSAGE classpath=114 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-23 12:24:16.070
+!MESSAGE buffering callback sts4.classpath.YUKqDpMF Cassandra false 114
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-23 12:24:16.074
+!MESSAGE Preparing classpath changed notification MongoDB
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-23 12:24:16.077
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-23 12:24:16.084
+!MESSAGE classpath=98 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-23 12:24:16.090
+!MESSAGE buffering callback sts4.classpath.YUKqDpMF MongoDB false 98
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-23 12:24:16.094
+!MESSAGE executing callback sts4.classpath.YUKqDpMF 3 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-23 12:24:16.127
+!MESSAGE executing callback sts4.classpath.YUKqDpMF SUCCESS [done]
+!SESSION 2019-08-23 17:17:24.245 -----------------------------------------------
+eclipse.buildId=4.3.1.201907120711-RELEASE
+java.version=1.8.0_211
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.core.resources 2 10035 2019-08-23 17:17:35.882
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.egit.core 1 0 2019-08-23 17:17:45.052
+!MESSAGE Using Apache MINA sshd as ssh client.
+
+!ENTRY org.eclipse.jface 2 0 2019-08-23 17:17:49.990
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2019-08-23 17:17:49.991
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@6abd8bcd,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@70cd122,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2019-08-23 17:18:11.778
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\verizon'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-23 17:18:11.971
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-23 17:18:11.979
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@20bf7206[org.springframework.tooling.boot.ls:1.9.0.201907120625(id=624)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-23 17:18:12.014
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-23 17:18:12.486
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-23 17:18:26.242
+!MESSAGE Boot LS startup time from start to initialized: 14190ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-23 17:18:26.285
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.HHAFHPYAisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-23 17:18:26.291
+!MESSAGE subscribing to classpath changes: sts4.classpath.HHAFHPYA isBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-23 17:18:26.298
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-23 17:18:26.304
+!MESSAGE subsribers = {sts4.classpath.HHAFHPYA=Send Classpath Notifications(83)}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-23 17:18:26.309
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-23 17:18:26.317
+!MESSAGE project UnitTesting ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-23 17:18:26.324
+!MESSAGE project Cassandra ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-23 17:18:26.329
+!MESSAGE Preparing classpath changed notification UnitTesting
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-23 17:18:26.334
+!MESSAGE project MongoDB ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-23 17:18:26.339
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-23 17:18:26.345
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-23 17:18:26.351
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.HHAFHPYA => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-23 17:18:26.356
+!MESSAGE classpath=93 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-23 17:18:26.364
+!MESSAGE buffering callback sts4.classpath.HHAFHPYA UnitTesting false 93
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-23 17:18:26.370
+!MESSAGE Preparing classpath changed notification Cassandra
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-23 17:18:26.375
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-23 17:18:26.384
+!MESSAGE classpath=114 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-23 17:18:26.392
+!MESSAGE buffering callback sts4.classpath.HHAFHPYA Cassandra false 114
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-23 17:18:26.399
+!MESSAGE Preparing classpath changed notification MongoDB
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-23 17:18:26.407
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-23 17:18:26.417
+!MESSAGE classpath=98 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-23 17:18:26.436
+!MESSAGE buffering callback sts4.classpath.HHAFHPYA MongoDB false 98
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-23 17:18:26.441
+!MESSAGE executing callback sts4.classpath.HHAFHPYA 3 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-23 17:18:26.489
+!MESSAGE executing callback sts4.classpath.HHAFHPYA SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-26 09:33:41.134
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.HHAFHPYA
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-26 09:33:41.141
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.HHAFHPYA
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-26 09:33:41.148
+!MESSAGE subsribers = null
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-26 09:33:41.154
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.HHAFHPYA => OK
+
+!ENTRY org.eclipse.lsp4e 4 0 2019-08-26 09:33:57.278
+!MESSAGE 
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1771)
+	at java.util.concurrent.CompletableFuture.get(CompletableFuture.java:1915)
+	at org.eclipse.lsp4e.LanguageServerWrapper.supportsWorkspaceFolderCapability(LanguageServerWrapper.java:461)
+	at org.eclipse.lsp4e.LanguageServerWrapper.canOperate(LanguageServerWrapper.java:450)
+	at org.eclipse.lsp4e.LanguageServerWrapper.canOperate(LanguageServerWrapper.java:757)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.lambda$6(LanguageServiceAccessor.java:320)
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:174)
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:175)
+	at java.util.HashMap$KeySpliterator.forEachRemaining(HashMap.java:1556)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:481)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:708)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:499)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.getLSWrappers(LanguageServiceAccessor.java:321)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.getLanguageServers(LanguageServiceAccessor.java:505)
+	at org.eclipse.lsp4e.ConnectDocumentToLanguageServerSetupParticipant$1.run(ConnectDocumentToLanguageServerSetupParticipant.java:50)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-26 09:33:58.081
+!MESSAGE Boot LS startup time from start to initialized: 3667ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-26 09:33:58.092
+!MESSAGE Boot LS startup time from start to initialized: 3668ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-26 09:33:58.118
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.CqGhqGkFisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-26 09:33:58.124
+!MESSAGE subscribing to classpath changes: sts4.classpath.CqGhqGkF isBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-26 09:33:58.130
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-26 09:33:58.135
+!MESSAGE subsribers = {sts4.classpath.CqGhqGkF=Send Classpath Notifications(450)}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-26 09:33:58.140
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-26 09:33:58.146
+!MESSAGE project MongoDB ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-26 09:33:58.151
+!MESSAGE Preparing classpath changed notification MongoDB
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-26 09:33:58.156
+!MESSAGE project Cassandra ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-26 09:33:58.161
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-26 09:33:58.167
+!MESSAGE project UnitTesting ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-26 09:33:58.172
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-26 09:33:58.176
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.CqGhqGkF => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-26 09:33:58.181
+!MESSAGE classpath=98 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-26 09:33:58.189
+!MESSAGE buffering callback sts4.classpath.CqGhqGkF MongoDB false 98
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-26 09:33:58.194
+!MESSAGE Preparing classpath changed notification Cassandra
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-26 09:33:58.199
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-26 09:33:58.210
+!MESSAGE classpath=114 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-26 09:33:58.219
+!MESSAGE buffering callback sts4.classpath.CqGhqGkF Cassandra false 114
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-26 09:33:58.224
+!MESSAGE Preparing classpath changed notification UnitTesting
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-26 09:33:58.230
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-26 09:33:58.238
+!MESSAGE classpath=93 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-26 09:33:58.245
+!MESSAGE buffering callback sts4.classpath.CqGhqGkF UnitTesting false 93
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-26 09:33:58.250
+!MESSAGE executing callback sts4.classpath.CqGhqGkF 3 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-26 09:33:58.280
+!MESSAGE executing callback sts4.classpath.CqGhqGkF SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-26 09:34:03.831
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.CqGhqGkF
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-26 09:34:03.839
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.CqGhqGkF
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-26 09:34:03.844
+!MESSAGE subsribers = null
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-26 09:34:03.851
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.CqGhqGkF => OK
+
+!ENTRY org.eclipse.ui 2 2 2019-08-26 09:34:22.687
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+!SESSION 2019-08-26 09:40:54.374 -----------------------------------------------
+eclipse.buildId=4.3.1.201907120711-RELEASE
+java.version=1.8.0_211
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.egit.core 1 0 2019-08-26 09:41:14.985
+!MESSAGE Using Apache MINA sshd as ssh client.
+
+!ENTRY org.eclipse.jface 2 0 2019-08-26 09:41:17.403
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2019-08-26 09:41:17.403
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@2447940d,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@60ee7a51,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2019-08-26 09:41:26.950
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\verizon'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-26 09:41:53.452
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-26 09:41:53.459
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@1f138b74[org.springframework.tooling.boot.ls:1.9.0.201907120625(id=624)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-26 09:41:53.472
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-26 09:41:53.864
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-26 09:41:55.637
+!MESSAGE Boot LS startup time from start to initialized: 2145ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-26 09:41:55.698
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.DmzBwjQdisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-26 09:41:55.705
+!MESSAGE subscribing to classpath changes: sts4.classpath.DmzBwjQd isBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-26 09:41:55.715
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-26 09:41:55.724
+!MESSAGE subsribers = {sts4.classpath.DmzBwjQd=Send Classpath Notifications(79)}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-26 09:41:55.732
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-26 09:41:55.743
+!MESSAGE project MongoDB ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-26 09:41:55.751
+!MESSAGE project Cassandra ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-26 09:41:55.758
+!MESSAGE Preparing classpath changed notification MongoDB
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-26 09:41:55.765
+!MESSAGE project UnitTesting ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-26 09:41:55.772
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-26 09:41:55.777
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-26 09:41:55.786
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.DmzBwjQd => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-26 09:41:55.794
+!MESSAGE classpath=98 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-26 09:41:55.805
+!MESSAGE buffering callback sts4.classpath.DmzBwjQd MongoDB false 98
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-26 09:41:55.814
+!MESSAGE Preparing classpath changed notification Cassandra
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-26 09:41:55.822
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-26 09:41:55.835
+!MESSAGE classpath=114 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-26 09:41:55.849
+!MESSAGE buffering callback sts4.classpath.DmzBwjQd Cassandra false 114
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-26 09:41:55.857
+!MESSAGE Preparing classpath changed notification UnitTesting
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-26 09:41:55.865
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-26 09:41:55.881
+!MESSAGE classpath=93 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-26 09:41:55.892
+!MESSAGE buffering callback sts4.classpath.DmzBwjQd UnitTesting false 93
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-26 09:41:55.902
+!MESSAGE executing callback sts4.classpath.DmzBwjQd 3 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-26 09:41:55.954
+!MESSAGE executing callback sts4.classpath.DmzBwjQd SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-26 17:26:24.759
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.DmzBwjQd
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-26 17:26:24.768
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.DmzBwjQd
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-26 17:26:24.775
+!MESSAGE subsribers = null
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-08-26 17:26:24.781
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.DmzBwjQd => OK
+
+!ENTRY org.eclipse.ui 2 2 2019-08-26 17:26:25.680
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)

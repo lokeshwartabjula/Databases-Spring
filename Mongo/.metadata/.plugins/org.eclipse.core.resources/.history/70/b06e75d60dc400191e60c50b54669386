@@ -1,0 +1,16 @@
+package com.example.demo.models;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
+public class Address {
+
+	private int houseNo;
+	private String street;
+	private String city;
+	private long pincode;
+}
